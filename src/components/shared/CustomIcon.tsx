@@ -11,13 +11,25 @@ import {
   Butterfly,
   Pill,
   WechatLogo,
-  DiscordLogo
+  DiscordLogo,
+  TelevisionSimple,
+  FacebookLogo,
+  LinkedinLogo,
+  TiktokLogo
 } from '@phosphor-icons/react'
 
 export function CustomIcon({ name, size = 20 }: { name: string; size?: number }) {
   switch (name) {
     case 'bank':
       return <Bank size={size} weight="duotone" />;
+    case 'linkedin':
+      return <LinkedinLogo size={size} weight="duotone" />;
+    case 'facebook':
+      return <FacebookLogo size={size} weight="duotone" />;
+    case 'television':
+      return <TelevisionSimple size={size} weight="duotone" />;
+    case 'tiktok':
+      return <TiktokLogo size={size} weight="duotone" />;
     case 'github':
       return <GithubLogo size={size} weight="duotone" />;
     case 'x':

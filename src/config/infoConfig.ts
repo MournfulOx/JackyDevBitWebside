@@ -7,24 +7,24 @@ export * from './activity'
 
 
 // personal info
-export const name = 'Corey Chiu'
-export const headline = 'Software engineer, Full-Stack web developer, and indie hacker.'
-export const introduction = 'I’m Corey, a software engineer based in Shenzhen, China. I like coding, and building interesting things'
-export const email = 'xxx@gmail.com'
-export const githubUsername = 'iamcorey'
+export const name = 'Jacky Feng'
+export const headline = 'Software Engineer, Artificial Intelligence, and Indie Game Developer'
+export const introduction = 'I’m Jacky, a CS student at Taylor’s University, Malaysia. I’m into coding and crafting game worlds.'
+export const email = 'jacky.creativecode@outlook.com'
+export const githubUsername = 'FurikuriSama'
 
 // about page
-export const aboutMeHeadline = "I'm Corey Chiu, a software engineer based in Shenzhen, China."
+export const aboutMeHeadline = "I’m Jacky Feng, from Chengdu, China."
 export const aboutParagraphs = [
-  "I love coding. I learned programming when I in college. I wrote my first program in Java when I was 18.",
-  "I have a lot of hobbies, such as travelling, photography, watching movies, music and so on.",
-  "I'm working as a software develop engineer in Shenzhen, China now. And I'm building a lot of side projects in my spare time."
+  "A second-year Computer Science student at Taylor’s University, Malaysia, and a passionate indie game developer.",
+  "This blog is my digital workbench, where I log my thoughts and projects in game design, software engineering, and artificial intelligence.",
+  "Beyond code, I share reflections on literature, art, film, music, and comics, believing a developer’s tools can craft warm, meaningful experiences."
 ]
 
 
 // blog
 export const blogHeadLine = "What I've thinking about."
-export const blogIntro = "I've written something about AI, programming and life."
+export const blogIntro = "A Developer’s Thoughts on Games, Code, and Artistry."
 
 
 // social links
@@ -40,50 +40,51 @@ export const socialLinks: Array<SocialLinkType> = [
   {
     name: 'X',
     icon: 'x',
-    href: 'https://x.com/realcoreychiu',
+    href: 'https://x.com/furikuriri?s=21',
     external: true
   },
   {
-    name: 'Bsky',
-    icon: 'bsky',
-    href: 'https://bsky.app/profile/coreychiu.com',
+    name: 'Facebook',
+    icon: 'facebook',
+    href: 'https://www.facebook.com/share/1FjTzgJQMq/?mibextid=wwXIfr'},
+  {
+    name: 'Instagram',
+    icon: 'instagram',
+    href: 'https://www.instagram.com/jacky_feng77?igsh=Y3djYWV1amwycHN2&utm_source=qr',
     external: true
   },
   {
-    name: 'Jike',
-    icon: 'pill',
-    href: 'https://okjk.co/P7c1zU',
+    name: 'Tiktok',
+    icon: 'tiktok',
+    href: 'https://v.douyin.com/0rQPCcopYWo/',
     external: true
   },
   {
-    name: 'Github',
-    icon: 'github',
-    href: 'https://github.com/iamcorey',
+    name: 'Bilibili',
+    icon: 'television',
+    href: 'https://b23.tv/HM4S9Q4',
     external: true
   },
   {
-    name: 'Wechat',
-    icon: 'wechat',
-    href: 'https://mp.weixin.qq.com/s/DxnRgqNfgzXIhqj6w_x0dQ',
-    external: true
-  },
-  {
-    name: 'Discord',
-    icon: 'discord',
-    href: 'https://discord.gg/xTxRg3Ej',
-    external: true
-  },
-  {
-    name: 'Ko-fi',
-    icon: 'coffee',
-    href: 'https://ko-fi.com/coreychiu',
+    name: 'Linkedin',
+    icon: 'linkedin',
+    href: 'https://www.linkedin.com/in/jiaqi-feng-9a1a92340/',
     external: true
   }
+
 ]
 
 // https://simpleicons.org/
 export const techIcons = [
   "typescript",
+  "linux",
+  "intel",
+  "google",
+  "facebook",
+  "openai",
+  "nvidia",
+  "huawei",
+  "python",
   "javascript",
   "supabase",
   "cloudflare",
@@ -102,7 +103,8 @@ export const techIcons = [
   "github",
   "visualstudiocode",
   "androidstudio",
-  "ios",
+  "unity",
+  "unrealengine",
   "apple",
   "wechat"
 ];
