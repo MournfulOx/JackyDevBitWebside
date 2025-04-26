@@ -108,6 +108,3 @@ export const techIcons = [
   "apple",
   "wechat"
 ];
-
-
-
