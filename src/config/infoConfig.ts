@@ -10,7 +10,7 @@ export * from './activity'
 export const name = 'Jacky Feng'
 export const headline = 'Software Engineer, Artificial Intelligence, and Indie Game Developer'
 export const introduction = 'I’m Jacky, a CS student at Taylor’s University, Malaysia. I’m into coding and crafting game worlds.'
-export const email = 'jacky.creativecode@outlook.com'
+export const email = 'furikuriox@163.com'
 export const githubUsername = 'FurikuriSama'
 
 // about page
